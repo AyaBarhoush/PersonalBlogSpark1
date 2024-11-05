@@ -1,0 +1,35 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'main.css';
+@import 'blog.css';
+
+body{
+    margin: 0;
+   padding: 0;
+    
+}
+
+button:hover, a:hover {
+   opacity: 0.5;
+} 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media only screen and (max-width: 1400px){
+    .contant{
+    font-size: 25px;
+}
+}
+@media only screen and (max-width: 768px){
+    .contant{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .contant{
+        font-size: 15px;
+    }
+}
